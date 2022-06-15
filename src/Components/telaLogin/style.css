@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+.Corpo{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.card-esquerdo{
+    background: #87cefa;
+}
+.Conteudo-card-esquerdo{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.Conteudo-card-principal{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin-top: 13rem;
+}
+#cor-botao-entrar{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 3rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 30px;
+    background: #87cefa;
+    color: #ffff;
+    border-color: #87cefa;
+}
+.botao-login{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+button:focus{
+    outline: none;
+}
+#design-logo{
+    width: 15rem;
+    height: 15rem;
+}
+.logo{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+#card-cor{
+    height: 100vh;
+    width: 25rem;
+}
+#campo-texto{
+    width: 17rem;
+    height: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: gray;
+    background-color: none;
+}
+.botao-cad{
+    text-decoration: none;
+  
+}
+input:focus{
+    outline: none;
+}
+#cor-p{
+    color: #ffff;
+}
+#cor-botao-cadastro{
+    text-align: center;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 30px;
+    background: #ffff;
+    color: #87cefa;
+    border-color: #87cefa;
+}
+.camp-senha{
+    margin-top: 2rem;
+}
+#texto-login{
+    color:#87cefa;
+    font-size: 32px;
+    
+}
+.login-text{
+    margin-left: 5rem;
+}
+
+@media only screen and (max-width: 400px){
+    .Corpo{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto ;
+    }
+    .Corpo-login{
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    #card-cor{
+        height: 10rem;
+    }
+    #design-logo{
+        width: 8rem;
+        height: 8rem;
+    }
+    .logo{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .Conteudo-card-esquerdo{
+        margin-top: -7rem;
+        margin-left: 10rem;
+    }
+    .Conteudo-card-principal{
+        margin-left: 4rem;
+        
+    }
+
+
+}

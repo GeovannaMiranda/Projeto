@@ -1,0 +1,87 @@
+.corpo-ini{
+    padding: 0;
+    margin: 0;
+}
+#logo-ini{
+    width: 10rem;
+    height: 10rem;
+}
+.logo-pag-ini{
+    padding: 1rem;
+}
+#cor-card-ini{
+    background: #87CEFA;
+
+}
+#input-pesquisa{
+    border-color: #c9c9c9;
+    width: 80rem;
+    height: 2rem;
+    border-radius: 30px;
+}
+.campo-pesquisa{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+.campo-pesquisa:hover{
+    outline: none;
+}
+#titulo-estilo{
+    font-size: 32px;
+    color: #ffff;
+}
+.titulo-ini{
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+.linha1{
+    margin-left: 4rem;
+}
+#line1{
+    background: #87CEFA;
+    width: 80rem;
+    border-radius: 30px;
+    height: 20rem;
+}
+#input-estilo{
+    width: 17rem;
+    height: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: gray;
+    background-color: #87CEFA;
+    color: #ffff;
+}
+
+.campos-end{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+@media only screen and (max-width: 400px){
+    #input-pesquisa{
+        border-color: #c9c9c9;
+        width: 21rem;
+        height: 2rem;
+        border-radius: 30px;
+    }
+    .campo-pesquisa{
+        margin-top: 2rem;
+        margin-left: 1.7rem;
+    }
+    .campo-pesquisa:hover{
+        outline: none;
+    }
+    #input-estilo{
+        width: 17rem;
+        height: 2rem;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: gray;
+        background-color: none;
+    }
+
+}
