@@ -11,13 +11,13 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem } from 'reactstrap';
-import logo from '../img/Logo.PNG';
+
 
 function MenuSuperior(){
     return(
         <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/" src={logo}></NavbarBrand>
+          <NavbarBrand href="/"></NavbarBrand>
           <NavbarToggler  />
           <Collapse navbar>
             <Nav className="ml-auto" navbar>

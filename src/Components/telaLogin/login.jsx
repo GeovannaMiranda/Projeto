@@ -1,9 +1,8 @@
 import React from "react";
 import {Card, Button, Input} from 'reactstrap';
-import style  from '../telaLogin/style.css';
-
-
+import '../telaLogin/style.css';
 import logo from '../img/Logo.PNG';
+
 
 function Login(){
 

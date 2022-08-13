@@ -10,6 +10,18 @@
     height: 100vh;
     width: 25rem;
 }
+#cor-botao-check{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 3rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 30px;
+    background: #87cefa;
+    color: #ffff;
+    border-color: #87cefa;
+    align-items: center;
+}
 #input-cad{
     width: 17rem;
     height: 2rem;
@@ -35,6 +47,11 @@
 }
 .login-txt{
     margin-left: 4rem;
+}
+.botao-cad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 400px){

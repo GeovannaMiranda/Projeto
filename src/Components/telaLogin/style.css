@@ -34,10 +34,14 @@ body{
     background: #87cefa;
     color: #ffff;
     border-color: #87cefa;
+    align-items: center;
 }
 .botao-login{
     margin-top: 2rem;
     margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button:focus{
     outline: none;
