@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "reactstrap";
-import style from '../telaCadastroEstoque/style.css'
+import '../telaCadastroEstoque/style.css'
 
 function CadastroEstoque(){
     return(

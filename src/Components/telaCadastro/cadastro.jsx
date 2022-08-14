@@ -1,7 +1,7 @@
 import React from "react";
 import {Card, Input, Button} from 'reactstrap';
 import '../telaCadastro/style.css'
-import logo from '../img/Logo.PNG';
+import logo from '../img/Logo.png';
 import createSequence from "tooltip-sequence";
 import "../Style/index.css";
 

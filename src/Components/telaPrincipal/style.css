@@ -41,7 +41,7 @@
     background: #87CEFA;
     width: 80rem;
     border-radius: 30px;
-    height: 20rem;
+    height: 18rem;
 }
 #input-estilo{
     width: 17rem;
@@ -49,16 +49,106 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom-color: gray;
+    border-bottom-color: white;
     background-color: #87CEFA;
     color: #ffff;
+}
+
+#input-estilo::placeholder{
+    color: white;
+}
+
+.div-busca-cep{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+#style-input-cep{
+    width: 40rem;
+    height: 2rem;
+    border-radius: 30px;
+}
+
+#style-button-busca{
+    width: 10rem;
+    color: #87CEFA;
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.class-button{
+    margin-left: 1rem;
+}
+
+.class-button:focus{
+    outline: none;
+}
+
+.class-button:hover{
+    outline: none;
 }
 
 .campos-end{
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin-left: 4rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
+}
+
+.class-cards-remedio{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+
+}
+
+.class-cards-remedio4,
+.class-cards-remedio3,
+.class-cards-remedio2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.title-cards{
+    margin-top: 5rem;
+    margin-left: 5rem;
+
+}
+
+#style-tittle{
+    color: #87CEFA;
+    font-weight: bold;
+}
+
+.class-button-add{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.5rem;
+}
+.class-p{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.class-footer{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#style-footer{
+    background: #87CEFA;
+    color: white;
+    height: 8vh;
 }
 @media only screen and (max-width: 400px){
     #input-pesquisa{
